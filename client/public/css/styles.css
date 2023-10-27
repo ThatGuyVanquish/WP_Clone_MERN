@@ -1,0 +1,55 @@
+.active {
+  color: #1890ff;
+  text-decoration: underline;
+}
+
+.ant-form-item-has-error {
+  margin-bottom: 24px;
+}
+
+.ant-input-textarea-show-count::after {
+  display: none;
+}
+
+.ProseMirror {
+  min-height: 500px;
+  padding: 15px 25px;
+  overflow: scroll;
+}
+
+.editor-scroll ::-webkit-scrollbar {
+  display: none;
+}
+
+.editor-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.ant-upload-list-item-actions {
+  display: none;
+}
+
+.ant-upload-drag {
+  height: auto !important;
+}
+
+/* for help us improve */
+:root {
+  --thumbs-up-outline: url("/images/thumbs_up.png");
+  --thumbs-up-filled: url("/images/thumbs_up_filled.png");
+}
+
+.thumbs_up {
+  width: 20px;
+  height: 20px;
+  background-image: var(--thumbs-up-outline);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: background-image 0.3s ease-in-out;
+  margin-left: 10px;
+}
+
+.thumbs_up:hover {
+  background-image: var(--thumbs-up-filled);
+}

@@ -1,0 +1,30 @@
+.custom-link {
+  color: red;
+}
+/* styles.css */
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #0074d9;
+  background-color: #0074d9;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  border: 2px solid #0056b3;
+  transform: scale(1.1);
+}
